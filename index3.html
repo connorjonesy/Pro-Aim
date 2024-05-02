@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro-Aim!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="project3.js" defer></script>
+    <!-- thanks to you, Steven, I always add defer. -->
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header_wrapper">
+            <div id="score_wrapper">
+                <h2>SCORE:</h2>
+                <div id="score"></div>
+            </div>
+
+            <h1>Pro-Aim!</h1>
+        </div>
+        <!-- as you can see ive gotten into the habit of creating wrappers for most content in page. It makes it so much easier to position things in the CSS. -->
+        <canvas id="canvas" width="800" height="700"></canvas>
+        <div id="btn">
+        <input type="button" id="button" value="Play Game!">
+        </div>
+        <div id="difficulty">
+            <div id="easy">Easy</div>
+            <div id="normal">Normal</div>
+            <div id="hard">Hard</div>
+        </div>
+        <!-- this is the difficulty buttons. they are just 3 divs within a wrapper. -->
+        <div id="how_to">
+            <h2>How To Play!</h2>
+            <p>Click Play Game button to start the game. You have 30 seconds to click as many dots as you can. You can change the difficulty using the buttons above! The default difficulty is normal. If you want to change the difficulty or play the game again, just refresh the web page. Good Luck!</p>
+        </div>
+
+        <div id="end_game">
+            
+        </div>
+        <!-- this is where the message goes when you finish the game. check the css file to see how I positioned it absolutely. -->
+    </div>
+</body>
+</html>

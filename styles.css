@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(33, 33, 34);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#wrapper{
+    margin: 20px auto;
+    width: 800px;
+    /* border: 1px solid white; */
+    position: relative;
+}
+#canvas{
+    border: 1px solid rgb(255, 179, 0);
+    background-color: black;
+    cursor: crosshair;
+}
+h1{
+    color: rgb(255, 179, 0);
+    display: block;
+    width: 300px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+input[type=button]{
+    margin: auto;
+    width: 240px;
+    height: 40px;
+    font-weight: bold;
+    background-color: rgb(255, 179, 0);
+    border: 1px solid white;
+    border-radius: 20px;
+}
+input[type=button]:hover{
+    background-color: rgb(135, 97, 9);
+}
+#btn{
+    text-align: center;
+}
+
+h2{
+    color: rgb(255, 179, 0);
+}
+#score{
+    border: 2px solid rgb(255, 179, 0);
+    display: block;
+    width: 100px;
+    height: 40px;
+    color: aliceblue;
+    font-size: 24px;
+}
+
+#difficulty{
+    /* border: 1px solid rgb(255, 179, 0); */
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+}
+#difficulty div{
+    border: 1px solid rgb(255, 179, 0);
+    width: 33%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 75px;
+    font-size: 34px;
+    margin: 2px;
+}
+
+#difficulty div:active{
+    transform: translateY(4px);
+    background-color: rgb(53, 45, 35);
+    border-radius: 20px;
+}
+/* this is where I realized I would need javascript to make the buttons work. */
+#header_wrapper{
+    overflow: auto;
+}
+#score_wrapper{
+    float: right;
+    margin-bottom: 5px;
+}
+#how_to{
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+}
+
+#end_game{
+    position: absolute;
+    top: 450px;
+    left: 25%;
+    color: aliceblue;
+}
